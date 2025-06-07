@@ -1,14 +1,19 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
+
+<Link to="/" className="nav-link">
+  Home
+</Link>;
 
 const Navbar = () => {
-    return (
-      <nav
+  return (
+    <nav
       className="navbar navbar-expand-lg bg-body-tertiary"
       data-bs-theme="dark"
     >
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Jhon Doe
+        <a className="navbar-brand logo-text" href="#home">
+          JOHN <span>DOE</span>
         </a>
         <button
           className="navbar-toggler"
@@ -24,35 +29,35 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <Link className="nav-link active" aria-current="page" to="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#service">
-                Service
-              </a>
+              <Link className="nav-link" to="/services">
+                Services
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#portefolio">
+              <Link className="nav-link" to="/portfolio">
                 Portefolio
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact">
+              <Link className="nav-link" to="/contact">
                 Contact
-              </a>
+              </Link>
             </li>
-  
+
             <li className="nav-item">
-              <a className="nav-link" href="#mention-légales">
+              <Link className="nav-link" to="/mention-légales">
                 Mention Légale
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    )
-  };
-  export default Navbar;
+  );
+};
+export default Navbar;
