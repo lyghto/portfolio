@@ -13,9 +13,9 @@ const Navbar = () => {
       data-bs-theme="dark"
     >
       <div className="container-fluid">
-        <a className="navbar-brand logo-text" href="#home">
+        <Link className="navbar-brand logo-text" to="/">
           JOHN <span>DOE</span>
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
