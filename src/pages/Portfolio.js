@@ -58,6 +58,8 @@ const Portfolio = () => {
         <p>Voici quelques-unes de mes réalisations</p>
       </section>
 
+      <div className="line"></div>
+
       <Container className="my-5">
         <Row className="g-4">
           {projets.map((projet, index) => (

@@ -3,9 +3,6 @@ import Footer from "../components/Footer";
 import service from "../components/service.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Link } from "react-router-dom";
-<Link className="nav-link" to="/services">
-  Services
-</Link>;
 
 const Services = () => {
   return (
@@ -16,17 +13,15 @@ const Services = () => {
 
       <div className="container my-5">
         <h2 className="text-center mb-3">Mon offre de services</h2>
-        <p className="text-center text-muted mb-4">
+        <p className="text-center text-muted mb-4 ">
           Voici les prestations sur lesquelles je peux intervenir
         </p>
-        <hr
-          className="mx-auto mb-5"
-          style={{ width: "100px", height: "3px", backgroundColor: "#0d6efd" }}
-        />
+
+        <div className="line mb-4"></div>
 
         <div className="row text-center">
           <div className="col-md-4 mb-4">
-            <div className="border p-4 h-100 card-hover">
+            <div className="border p-4 h-100 card-hover my-card">
               <i className="bi bi-pencil fs-1 text-primary mb-3"></i>
               <h5>UX Design</h5>
               <p>

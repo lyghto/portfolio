@@ -1,0 +1,26 @@
+footer .nav-link:hover {
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #f8f9fa;
+  transition: font-weight 0.2 ease;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer-icon {
+  color: #6c757d;
+  transition: color 0.3s ease;
+}
+
+.footer-icon:hover {
+  color: #ffffff;
+}

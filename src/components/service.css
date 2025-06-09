@@ -6,3 +6,13 @@
   background-color: #efefef;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+
+.line {
+  width: 30%;
+  min-width: 100px;
+  max-width: 400px;
+  height: 5px;
+  background-color: #007bff;
+  border: none;
+  margin: 0 auto 2rem;
+}

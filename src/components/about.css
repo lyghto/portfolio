@@ -1,0 +1,17 @@
+.section-title {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+  }
+  
+  .section-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 456px;
+    height: 3px;
+    background-color: #007bff;
+  }
+  
